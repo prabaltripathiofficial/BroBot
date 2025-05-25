@@ -4,6 +4,7 @@ import Image from "next/image";
 import {assets} from "@/assets/assets"
 import Sidebar from "@/components/Sidebar";
 import PromptBox from "@/components/PromptBox";
+import Messages from "@/components/Messages";
 
 export default function Home() {
   const [expand, setExpand] =useState(false)
@@ -31,7 +32,7 @@ export default function Home() {
             </>
           ):(
             <div>
-              <Message role='user' content='What is Next js'/>
+              <Messages role='user' content='What is Next js'/>
             </div>
           )}
          <PromptBox isLoading={isLoading} setIsLoading={setIsLoading}/>
