@@ -103,7 +103,7 @@ const PromptBox = ({setIsLoading, isLoading}) => {
         onKeyDown={handleKeyDown}
         className='outline-none w-full resize-none overflow-hidden break-words bg-transparent'
         rows={2}
-        placeholder='Message DeepSeek' required 
+        placeholder='Message BroBot' required 
         onChange={(e)=> setPrompt(e.target.value)} value={prompt}/>
 
         <div className='flex items-center justify-between text-sm'>
