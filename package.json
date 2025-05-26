@@ -11,6 +11,7 @@
   "dependencies": {
     "@clerk/nextjs": "^6.20.0",
     "axios": "^1.9.0",
+    "cohere-ai": "^7.17.1",
     "mongoose": "^8.15.0",
     "next": "15.3.1",
     "openai": "^4.103.0",
